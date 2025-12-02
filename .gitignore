@@ -1,0 +1,61 @@
+# compiled output
+/dist
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#env
+.env
+/apps/user-service/.user-service.local.env
+/apps/fleet-management/.fleet-management.local.env
+/apps/api-gateway/.api-gateway.local.env
+/apps/order-placement/.order-placement.local.env
+/apps/notification-service/.notification-service.local.env
+/apps/payment-service/.payment-service.local.env
+/apps/analytics-service/.analytics-service.local.env
+
+#firebase keys
+/apps/fleet-management/lodbod-firebase-adminsdk.json
+/apps/notification-service/serviceKey.json
+
+#media
+/media/images
+
+#jwt keys
+./jwt-keys.json
+
+#redis cache
+./dump.rdb
+
+#Connect-IPS config
+CREDITOR.pfx
